@@ -1,0 +1,21 @@
+.skills-wrapper {
+    text-align: center;
+}
+
+@media only screen and (min-width:768px) {
+    .skills-wrapper {
+        text-align: left;
+    }
+}
+
+.skill {
+    margin: 1rem 0;
+}
+
+@media screen and (min-width:768px) {
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+        gap: 4rem;
+    }
+}
