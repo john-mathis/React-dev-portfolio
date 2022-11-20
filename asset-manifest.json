@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.4c3e1ae5.css",
-    "main.js": "./static/js/main.76f4f8b6.js",
+    "main.css": "./static/css/main.0d98529c.css",
+    "main.js": "./static/js/main.7ae0e66c.js",
     "static/media/thumbnail-project-4-large.webp": "./static/media/thumbnail-project-4-large.751a4aca20e0604e0904.webp",
     "static/media/thumbnail-project-6-large.webp": "./static/media/thumbnail-project-6-large.1bb664dcc9883bc285db.webp",
     "static/media/thumbnail-project-4-small.webp": "./static/media/thumbnail-project-4-small.9b78cb7a8fc016ac6f3e.webp",
@@ -9,17 +9,22 @@
     "static/media/thumbnail-project-2-large.webp": "./static/media/thumbnail-project-2-large.e06e1b03f76ad1010133.webp",
     "static/media/thumbnail-project-6-small.webp": "./static/media/thumbnail-project-6-small.6c5f5966e1c2eba5e0af.webp",
     "static/media/thumbnail-project-1-small.webp": "./static/media/thumbnail-project-1-small.49e25903f70dda5c2a93.webp",
+    "static/media/image-profile-mobile.webp": "./static/media/image-profile-mobile.a8f8432077fd643bed7b.webp",
     "static/media/thumbnail-project-2-small.webp": "./static/media/thumbnail-project-2-small.f36a7e52b84a6d8c7461.webp",
     "static/media/thumbnail-project-3-large.webp": "./static/media/thumbnail-project-3-large.204666234bbd998df57f.webp",
     "static/media/thumbnail-project-5-large.webp": "./static/media/thumbnail-project-5-large.bc869bfce11bf4174bdd.webp",
     "static/media/thumbnail-project-3-small.webp": "./static/media/thumbnail-project-3-small.951fb216eb344873b374.webp",
     "static/media/thumbnail-project-5-small.webp": "./static/media/thumbnail-project-5-small.e186a34a955415f41ecd.webp",
+    "static/media/icon-github.svg": "./static/media/icon-github.376f746105559084ee856620094454e7.svg",
     "index.html": "./index.html",
-    "main.4c3e1ae5.css.map": "./static/css/main.4c3e1ae5.css.map",
-    "main.76f4f8b6.js.map": "./static/js/main.76f4f8b6.js.map"
+    "static/media/icon-twitter.svg": "./static/media/icon-twitter.629d1a7a6ef2cb5f9c2fff0113fefc9a.svg",
+    "static/media/icon-linkedin.svg": "./static/media/icon-linkedin.299a1d811c6c10d4964a7018ae43228e.svg",
+    "static/media/icon-frontend-mentor.svg": "./static/media/icon-frontend-mentor.4b5f99515736c1a6c8b206e4c73dd048.svg",
+    "main.0d98529c.css.map": "./static/css/main.0d98529c.css.map",
+    "main.7ae0e66c.js.map": "./static/js/main.7ae0e66c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c3e1ae5.css",
-    "static/js/main.76f4f8b6.js"
+    "static/css/main.0d98529c.css",
+    "static/js/main.7ae0e66c.js"
   ]
 }
