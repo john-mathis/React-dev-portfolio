@@ -11,12 +11,12 @@ const Projects = () => {
       <>
         <div className="project-details-container">
           <img
-            className="mobile-project-img"
+            className="mobile-img"
             src={details.small}
             alt="project screenshots"
           />
           <img
-            className="desktop-project-img"
+            className="desktop-img"
             src={details.large}
             alt="project screenshots"
           />
@@ -28,6 +28,7 @@ const Projects = () => {
           <div className="project-skills">
             <p className="skills">{details.skills.skillOne}</p>
             <p className="skills">{details.skills.skillTwo}</p>
+            <p className="skills">{details.skills.skillThree}</p>
           </div>
 
           <div className="project-buttons">

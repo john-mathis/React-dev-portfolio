@@ -30,25 +30,25 @@ export const projectDetails = [
     title: "Todo Web App",
     small: thirdSmall,
     large: thirdLarge,
-    skills: { skillOne: "HTML", skillTwo: "CSS", skillThree: "Javascript" },
+    skills: { skillOne: "HTML", skillTwo: "CSS", skillThree: "JAVASCRIPT" },
   },
   {
     title: "Entertainment Web App",
     small: fourthSmall,
     large: fourthLarge,
-    skills: { skillOne: "HTML", skillTwo: "CSS", skillThree: "Javascript" },
+    skills: { skillOne: "HTML", skillTwo: "CSS", skillThree: "JAVASCRIPT" },
   },
 
   {
     title: "Memory Game",
     small: fifthSmall,
     large: fifthLarge,
-    skills: { skillOne: "HTML", skillTwo: "CSS", skillThree: "Javascript" },
+    skills: { skillOne: "HTML", skillTwo: "CSS", skillThree: "JAVASCRIPT" },
   },
   {
     title: "Art Gallery Showcase",
     small: sixthSmall,
     large: sixthLarge,
-    skills: { skillOne: "HTML", skillTwo: "CSS", skillThree: "Javascript" },
+    skills: { skillOne: "HTML", skillTwo: "CSS", skillThree: "JAVASCRIPT" },
   },
 ];

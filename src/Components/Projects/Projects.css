@@ -1,5 +1,6 @@
 .projects-wrapper {
     color: var(--white);
+    padding: 4rem 0;
 }
 
 .projects-heading-container {
@@ -11,12 +12,10 @@
 @media screen and (min-width:768px) {
     .projects-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 3.5rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+        gap: 1rem;
     }
 }
-
-
 
 @media screen and (min-width:1200px) {
     .projects-container {
@@ -31,13 +30,12 @@
 }
 
 
-.desktop-project-img {
-    display: none;
+@media screen and (min-width:768px) {
+    .project-details-container {
+        margin: 1.5rem 0;
+    }
 }
 
-.mobile-project-img {
-    display: flex;
-}
 
 .project-title {
     margin: 1rem 0;
@@ -51,16 +49,6 @@
 .skills {
     margin-right: 1rem;
     margin-bottom: 1rem;
-}
-
-@media screen and (min-width:768px) {
-    .mobile-project-img {
-        display: none;
-    }
-
-    .desktop-project-img {
-        display: flex;
-    }
 }
 
 .project-buttons {
