@@ -16,6 +16,12 @@ const Projects = () => {
             alt="project screenshots"
           />
           <img
+            className="tablet-img"
+            src={details.large}
+            alt="project screenshots"
+          />
+
+          <img
             className="desktop-img"
             src={details.large}
             alt="project screenshots"

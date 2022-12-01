@@ -1,0 +1,117 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--white);
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+@media screen and (min-width:1200px) {
+    .about-container {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-container {
+        flex-direction: row;
+    }
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--light-grey);
+}
+
+@media screen and (max-width:767px) {
+    .about-img-container {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .about-img-container {
+        order: 2;
+    }
+}
+
+.about-mobile {
+    max-width: 12.8rem;
+    max-height: 18rem;
+}
+
+@media screen and (min-width:768px) {
+    .about-tablet {
+        max-width: 20rem;
+        min-height: 37rem;
+        position: relative;
+        bottom: 9rem;
+        left: 12rem;
+    }
+}
+
+.about-desktop {
+    max-width: 50rem;
+    position: relative;
+    bottom: 13rem;
+    left: 20rem;
+}
+
+.about-text-container {
+    text-align: center;
+    z-index: 10;
+}
+
+@media screen and (min-width:768px) {
+    .about-text-container {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        max-width: 27rem;
+        position: absolute;
+        left: 0;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .about-text-container {
+        position: absolute;
+        left: 0;
+        top: 4rem;
+    }
+}
+
+
+.about-heading {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+@media screen and (min-width:1200px) {
+    .about-heading {
+        min-width: 40rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .about-heading {
+        font-size: 4.2rem;
+    }
+}
+
+.about-heading span {
+    text-decoration: underline var(--light-blue);
+    text-underline-offset: 8px;
+}
+
+.about-button {
+    margin: 2rem 0;
+}
+
+@media screen and (min-width:768px) {
+    .about-button {
+        justify-content: flex-start;
+    }
+}

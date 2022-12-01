@@ -11,7 +11,7 @@ const SocialsContainer = () => {
     <>
       <section className="socials-wrapper">
         <div className="max-width-container ">
-          <div className="socials-container border-bottom">
+          <div className="socials-container border-top">
             <h3 className="logo">adamkeys</h3>
             <picture className="socials-img-container">
               <img className="social-logo" src={githubIMG} alt="github logo" />

@@ -19,7 +19,18 @@ const Contact = () => {
 
           <form className="contact-form">
             <input type="text" placeholder="NAME" required />
-            <input type="email" placeholder="EMAIL" required />
+            <input
+              type="email"
+              placeholder="EMAIL"
+              required
+              onClick={(evt) => {
+                let targetInput = evt.target.value;
+                if (targetInput) {
+                  console.log(1);
+                }
+                console.log(2);
+              }}
+            />
             <input type="text" placeholder="MESSAGE" required />
             <button className="button contact-button uppercase">
               Send Message
