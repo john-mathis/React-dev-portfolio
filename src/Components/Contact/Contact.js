@@ -5,6 +5,7 @@ import SocialsContainer from "../Socials Container/SocialsContainer";
 
 const Contact = () => {
   const [inputValue, setInputValue] = useState(false);
+  console.log(inputValue);
   return (
     <>
       <section className="contact-wrapper">
@@ -19,22 +20,8 @@ const Contact = () => {
           </div>
 
           <form className="contact-form">
-            <div className="name-input">
-              <input type="text" placeholder="NAME" required />
-            </div>
-            <input
-              type="email"
-              placeholder="EMAIL"
-              required
-              onClick={(evt) => {
-                let targetEvent = evt.target.value;
-                if (targetEvent) {
-                  setInputValue(true);
-                }
-                setInputValue(false);
-              }}
-            />
-
+            <input type="text" placeholder="NAME" required />
+            <input type="email" placeholder="EMAIL" required />
             <input type="text" placeholder="MESSAGE" required />
             <button className="button contact-button uppercase">
               Send Message

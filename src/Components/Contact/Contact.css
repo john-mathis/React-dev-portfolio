@@ -54,6 +54,10 @@
     }
 }
 
+.input-container {
+    min-width: 100%;
+}
+
 
 input {
     border: none;

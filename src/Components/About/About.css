@@ -32,6 +32,7 @@
 @media screen and (min-width:768px) {
     .about-img-container {
         order: 2;
+        max-height: 40rem;
     }
 }
 
@@ -113,5 +114,6 @@
 @media screen and (min-width:768px) {
     .about-button {
         justify-content: flex-start;
+        margin-top: 5rem;
     }
 }

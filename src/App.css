@@ -41,6 +41,12 @@ body {
 }
 
 
+@media screen and (min-width:1024px) {
+  .max-width-container {
+    max-width: 50.75rem;
+  }
+}
+
 @media screen and (min-width:1200px) {
   .max-width-container {
     max-width: 61.75rem;
