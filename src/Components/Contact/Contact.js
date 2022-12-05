@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Contact/Contact.css";
 
 import SocialsContainer from "../Socials Container/SocialsContainer";
 
 const Contact = () => {
+  const [inputValue, setInputValue] = useState(false);
   return (
     <>
       <section className="contact-wrapper">
@@ -18,19 +19,22 @@ const Contact = () => {
           </div>
 
           <form className="contact-form">
-            <input type="text" placeholder="NAME" required />
+            <div className="name-input">
+              <input type="text" placeholder="NAME" required />
+            </div>
             <input
               type="email"
               placeholder="EMAIL"
               required
               onClick={(evt) => {
-                let targetInput = evt.target.value;
-                if (targetInput) {
-                  console.log(1);
+                let targetEvent = evt.target.value;
+                if (targetEvent) {
+                  setInputValue(true);
                 }
-                console.log(2);
+                setInputValue(false);
               }}
             />
+
             <input type="text" placeholder="MESSAGE" required />
             <button className="button contact-button uppercase">
               Send Message

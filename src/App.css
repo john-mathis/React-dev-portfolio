@@ -3,6 +3,7 @@
 
 :root {
   --black: rgb(21, 21, 21);
+  --transparent-black: rgb(21, 21, 21, 0.8);
   --light-blue: rgb(78, 225, 180);
   --dark-grey: rgb(38, 38, 36);
   --light-grey: rgb(217, 217, 217);
@@ -19,9 +20,6 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   background-color: var(--black);
 }
-
-
-
 
 
 .max-width-container {

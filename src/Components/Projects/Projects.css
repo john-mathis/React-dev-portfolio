@@ -33,6 +33,7 @@
 @media screen and (min-width:768px) {
     .project-details-container {
         margin: 1.5rem 0;
+        position: relative;
     }
 }
 
@@ -55,4 +56,40 @@
     max-width: 16.93rem;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (min-width:1200px) {
+    .button-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 5rem;
+        opacity: 0;
+    }
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .button-overlay:hover {
+        display: flex;
+        background-color: var(--transparent-black);
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .project-buttons {
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .project-buttons .button {
+        margin: 1rem 0;
+        min-width: 8rem;
+    }
 }

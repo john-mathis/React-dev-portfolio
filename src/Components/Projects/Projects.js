@@ -36,10 +36,11 @@ const Projects = () => {
             <p className="skills">{details.skills.skillTwo}</p>
             <p className="skills">{details.skills.skillThree}</p>
           </div>
-
-          <div className="project-buttons">
-            <a className="button uppercase">View Project</a>
-            <a className="button uppercase">View Code</a>
+          <div className="button-overlay">
+            <div className="project-buttons">
+              <a className="button uppercase">View Project</a>
+              <a className="button uppercase">View Code</a>
+            </div>
           </div>
         </div>
       </>
